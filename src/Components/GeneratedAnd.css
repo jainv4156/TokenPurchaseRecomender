@@ -1,0 +1,33 @@
+/* General styles from before remain the same */
+
+/* Styling for the generated answer container */
+.codeContainer {
+    background-color: #2d2d2d; /* Dark background for code-like appearance */
+    color: #f8f8f2; /* Light text for contrast */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace; /* Code-friendly font */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%; /* To make sure it scales well */
+    overflow-x: auto; /* Horizontal scroll for long code lines */
+    white-space: pre-wrap; /* Preserve white spaces and wrap code */
+}
+
+/* Optional: Add different styling for text highlights */
+.codeContainer .highlight {
+    color: #a6e22e; /* Green text to highlight important parts */
+    font-weight: bold;
+}   
+
+/* Optional: Add different styling for keywords or important text */
+.codeContainer .keyword {
+    color: #66d9ef;
+    font-weight: bold;
+}
+
+/* Optional: Styling for comments or notes within the generated answer */
+.codeContainer .comment {
+    color: #75715e;
+    font-style: italic;
+}
